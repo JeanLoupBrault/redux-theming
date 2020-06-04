@@ -1,0 +1,53 @@
+.card {
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  border-radius: 0.5rem;
+  width: 400px;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  background: var(--card-color);
+  padding: 1rem;
+}
+.header {
+  font-size: 2rem;
+  font-weight: 500;
+  margin-bottom: 2rem;
+  background-color: var(--color-one);
+  color: var(--text-for-light-theme);
+  padding: 0.2rem 0.5rem;
+  border-radius: 0.5rem;
+}
+.buttonContainer {
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  font-family: inherit;
+}
+.light {
+  background-color: var(--color-two);
+  color: var(--text-for-light-theme);
+}
+.light:hover {
+  background-color: var(--color-two-hover);
+}
+.dark {
+  background-color: var(--color-three);
+  color: var(--text-for-dark-theme);
+}
+.dark:hover {
+  background-color: var(--color-three-hover);
+}
+.textContainer {
+  display: flex;
+  flex-direction: column;
+}
+.info {
+  background-color: var(--color-two);
+}
+.message {
+  background-color: var(--color-one);
+}
+.error {
+  background-color: var(--color-four);
+}

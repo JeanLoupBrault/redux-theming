@@ -1,0 +1,49 @@
+:root {
+  --color-one: #31e981;
+  --text-for-light-theme: #000000;
+  --text-for-dark-theme: #ffffff;
+  --color-two: #61dafb;
+  --color-two-hover: #309ebd;
+  --color-three: #2a454d;
+  --color-three-hover: #477583;
+  --color-four: #d35269;
+  --bg-color: #d3d0d0;
+  --card-color: #ffffff;
+}
+
+html,
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: var(--bg-color);
+  font-family: "Poppins", sans-serif;
+}
+p {
+  margin: 0;
+}
+.App {
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.button {
+  padding: 1rem 1.5rem;
+  cursor: pointer;
+  border: none;
+  border-radius: 0.5rem;
+}
+.text {
+  font-size: 1.2rem;
+  text-align: center;
+  font-weight: 300;
+  margin-bottom: 1rem;
+  border-radius: 0.3rem;
+  padding: 0.5rem 0.8rem;
+  color: var(--text-for-light-theme);
+}
